@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:background="@drawable/screen">
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/iv_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:scaleType="fitCenter"/>
+
+    <com.example.thread.FirstTrd
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:layout_below="@+id/iv_logo"
+        android:id="@+id/btn_start"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btntable"
+        android:text="start"
+        android:textSize="25dp"/>
+    <Button
+        android:layout_below="@+id/btn_start"
+        android:id="@+id/btn_score"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btntable"
+        android:text="score"
+        android:textSize="25dp"/>
+
+
+
+
+</RelativeLayout>
